@@ -54,8 +54,8 @@ function guessANumber() {
                                 return;                        
                             };
 
-                        playerTrials += 3 * level;
-                        console.log(`You gain ${3 * level} more trials. Good Luck!\n`);
+                        playerTrials += 7;
+                        console.log(`You gain 7 more trials. Good Luck!\n`);
                         computerGuess = Math.floor(Math.random() * (100 * level));
                         
                         recursiveAsyncReadLine();
